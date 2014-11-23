@@ -143,7 +143,7 @@ After the extraction of the raw dataset, the following steps were executed in R 
 1. The file "*activity_labels.txt*" was read to create the lookup table for the activities (activity_id, activity_label)
 2. The file "*features.txt*" was read to get the names of the measures (a.k.a. "variables")
 3. For each sub-dataset "*train*" and "*test*":
-  1. the file "*subject_<sub-dataset>.txt*" was read to get the identifiers of the subject performing the activities
+  1. the file "*subject_\<sub-dataset\>.txt*" was read to get the identifiers of the subjects performing the activities
   2. the file "*y_\<sub-dataset>\.txt*" was read to get the identifiers of the activity performed
   3. the file "*X_\<sub-dataset\>.txt*" was read to get the values of the measures for that subject/activity measurement (561 values per row)
 4. While reading, the values where used to build a dataframe for each sub-dataset
