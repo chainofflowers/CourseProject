@@ -93,7 +93,7 @@ freq-BodyGyroJerkMagnitude-stdev
 
 * **average**: numeric, contains the average of the measurement in the "*variable*" field per each group of (activity,subject)
 
-* **measure**: character string, identifying the measure in the original dataset from which the measure in the "variable" field was derived. It can assume of the following 10 values:
+* **measure**: character string, identifying the measure in the original dataset from which the measure in the "variable" field was derived. It can assume one of the following 10 values:
   ```
   BodyAccel           
   GravityAccel          
