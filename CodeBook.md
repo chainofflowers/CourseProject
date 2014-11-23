@@ -171,7 +171,7 @@ After the extraction of the raw dataset, the following steps were executed in R 
 11. Additional columns where then generated from the "variable" column (domain, measure, function, axis). Their values originated from the value of "variable", splitting it using a dash as a separator. For the measures not bound to an axis, the column "axis" was valued with the string "NA".
 12. Eventually, the columns where reordered in the final form: (activity,subject,variable,average,measure,axis,domain,function).
 
-
-
 All files were read from their respective folders where they were extracted, without moving them from their original position.
+
+No file of the raw dataset was modified during the execution of this process.
 
