@@ -160,7 +160,7 @@ After the extraction of the raw dataset, the following steps were executed in R 
    1. the sub-string "BodyBody" was replaced with "Body" (this was an obvious typo in the raw dataset)
    2. the sub-strings "mean()" and "std()" were replaced with, respectively, "mean" and "stdev" (removing brackets)
    2. the sub-strings "Acc" and "Mag" were replaced with, respectively, "Accel" and "Magnitude"
-   3. the first letter of the measurements ('t' and 'f') was expanded to make them meaning clearer ('time' and 'freq')
+   3. the first letter of the measurements ('t' and 'f') was expanded to make its meaning clearer ('time' and 'freq')
 9. The resulting data table was then molten to have, on a single row:
    1. the "key" pair (activity, subject)
    2. the measure name (variable)
