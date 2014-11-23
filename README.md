@@ -26,6 +26,12 @@ The script "run_analysis.R" takes care of:
 5. modifying the measurement variables to let them have (slightly) more descriptive names (assignment step 4)
 6. creating a new, independent tidy dataset with the average of the variable values grouped by activity and subject (assignment step 5), which is written to disk.
 
+To run the script:
+```
+source('run_analysis.R')
+my_tidy_ds <- run_analysis()
+```
+
 The script is designed to run without any parameter, as adviced in the lecture "Components of Tidy Data" (Week 1). Nevertheless, for debugging purposes and for the convenience of peer reviewers, the script allows for some "flags" to be set, which cause the script to print some additional log messages and save temporary data used during the execution. 
 
 The flags (boolean parameters, all defaulted to FALSE) are:
@@ -35,6 +41,19 @@ The flags (boolean parameters, all defaulted to FALSE) are:
 * writeShortDataset _# saves the temporary short DS of step 4_
 
 This will hopefully ease the peer review process.
+
+The output of the script are:
+* a tbl_df ("*my_tidy_ds*" in the example above), returned as *invisible* (that is: nothing is displayed on the console if no assignment takes place)
+* a text file named "**tidy_dataset.txt**", approximately 830KB in size, with header, space-separated and readable in R with the following command:
+
+  ```
+  tidy_output <- read.table('tidy_dataset.txt', header=TRUE)
+  ```
+
+Optional analogue output files, if debug flags are used:
+* a text file named "*full_dataset.txt*", ~190MB, with the full dataset at step 1
+* a text file named "*short_dataset.txt*", ~8MB, with the full dataset at step 4
+
 
 ## Code book
 The file "CodeBook.md" is the Code book for the output tidy dataset. It describes the format of the variables and their meaning.
