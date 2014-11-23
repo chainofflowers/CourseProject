@@ -155,7 +155,7 @@ After the extraction of the raw dataset, the following steps were executed in R 
    mean()
    ```
    
-7. The activity lookup table (obtained at step 1) was then joined with the full dataset to replace the activity identifiers with the activity labels
+7. The activity lookup table (obtained at step 1) was joined with the full dataset to replace the activity identifiers with the activity labels
 8. Subsequently, the column names where modified to make them more descriptive/intuitive, although trying to keep them short:
    1. the sub-string "BodyBody" was replaced with "Body" (this was an obvious typo in the raw dataset)
    2. the sub-strings "mean()" and "std()" where replaced with, respectively, "mean" and "stdev" (removing brackets)
