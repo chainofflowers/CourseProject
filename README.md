@@ -1,6 +1,6 @@
 CourseProject
 =============
-### Repository for the Course Project of "Getting and Cleaning Data" Course
+### Repository for the Course Project of "Getting and Cleaning Data"
 
 ## Introduction
 This repository contains the work for the Course Project assignment. The goal is to produce a tidy dataset starting from the raw data of an interesting study on wearable computing: test subjects were asked to perform some activities while wearing a smartphone, and measurement related to their movements (velocity, acceleration, etc.) were collected using the smartphone sensors.
