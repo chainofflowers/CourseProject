@@ -158,9 +158,9 @@ After the extraction of the raw dataset, the following steps were executed in R 
 7. The activity lookup table (obtained at step 1) was joined with the full dataset to replace the activity identifiers with the activity labels
 8. Subsequently, the column names where modified to make them more descriptive/intuitive, although trying to keep them short:
    1. the sub-string "BodyBody" was replaced with "Body" (this was an obvious typo in the raw dataset)
-   2. the sub-strings "mean()" and "std()" where replaced with, respectively, "mean" and "stdev" (removing brackets)
-   2. the sub-strings "Acc" and "Mag" where replaced with, respectively, "Accel" and "Magnitude"
-   3. the first letter of the measurements ('t' and 'f') were expanded to make them meaning clearer ('time' and 'freq')
+   2. the sub-strings "mean()" and "std()" were replaced with, respectively, "mean" and "stdev" (removing brackets)
+   2. the sub-strings "Acc" and "Mag" were replaced with, respectively, "Accel" and "Magnitude"
+   3. the first letter of the measurements ('t' and 'f') was expanded to make them meaning clearer ('time' and 'freq')
 9. The resulting data table was then molten to have, on a single row:
    1. the "key" pair (activity, subject)
    2. the measure name (variable)
