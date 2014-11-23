@@ -95,17 +95,16 @@ freq-BodyGyroJerkMagnitude-stdev
 
 * **measure**: character string, identifying the measure in the original dataset from which the measure in the "variable" field were derived. It can assume of the following 10 values:
   ```
- BodyAccel           
- GravityAccel          
- BodyAccelJerk
- BodyGyro           
- BodyGyroJerk
- BodyAccelMagnitude  
- GravityAccelMagnitude
- BodyAccelJerkMagnitude
- BodyGyroMagnitude  
- BodyGyroJerkMagnitude
-
+  BodyAccel           
+  GravityAccel          
+  BodyAccelJerk
+  BodyGyro           
+  BodyGyroJerk
+  BodyAccelMagnitude  
+  GravityAccelMagnitude
+  BodyAccelJerkMagnitude
+  BodyGyroMagnitude  
+  BodyGyroJerkMagnitude
   ```
 
 * **domain**: character string, identifying the domain of the variable. It can assume one of the following values:
